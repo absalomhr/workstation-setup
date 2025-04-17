@@ -32,11 +32,8 @@ brew install starship
 # Install syntax highlighting and suggestions
 brew install zsh-syntax-highlighting zsh-autosuggestions
 
-# Create config dir for wezterm
-mkdir -p ~/.config/wezterm
-
 # Copy wezterm config file
-cp config-files/wezterm.lua ~/.config/wezterm
+cp config-files/wezterm.lua ~/.wezterm.lua
 
 # Copy starship config file
 cp config-files/starship.toml ~/.config/
